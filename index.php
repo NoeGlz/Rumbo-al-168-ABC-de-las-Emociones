@@ -9,11 +9,11 @@
 <body>
     <header>
         <div>
-        <a href="" class="hda">Rumbo al 168</a>
-        <a href="" class="hda">Aprender</a>
+        <a href="index.php" class="hda">Rumbo al 168</a>
+        <a href="aprender.php" class="hda">Aprender</a>
         <a href="formulario.php" class="hda">Test Emocional</a>
-        <a href="">Resultados Test Emocional</a>
-        <a href="" class="hda">Consejos</a>
+        <a href="resultados.php" class="hda">Resultados Test Emocional</a>
+        <a href="consejos.php" class="hda">Consejos</a>
         </div>
     </header>
 

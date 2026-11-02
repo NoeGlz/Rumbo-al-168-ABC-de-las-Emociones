@@ -55,6 +55,54 @@ header a:hover {
 
 /* CONTENIDO */
 
+.titulo-test {
+    max-width: 850px;
+    margin: 0 auto 12px;
+    color: #6842d9;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.indicaciones-test,
+.informacion-importante-test,
+.escala {
+    max-width: 850px;
+    margin: 0 auto 18px;
+}
+
+.indicaciones-test {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.informacion-importante-test {
+    padding: 16px;
+    background: #fff5bd;
+    border: 2px solid #171717;
+    border-left: 8px solid #ffcf4a;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.escala {
+    padding: 20px;
+    background: #eee8ff;
+    border: 2px solid #171717;
+    box-shadow: 5px 5px 0 #171717;
+}
+
+.escala h2 {
+    margin-bottom: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+}
+
+.escala p {
+    margin-top: 5px;
+    font-weight: 600;
+}
+
 body > form {
     max-width: 850px;
     margin: 35px auto;
@@ -231,6 +279,19 @@ input[type="reset"]:active {
 
     header a {
         font-size: 13px;
+    }
+
+    .titulo-test {
+        font-size: 30px;
+    }
+
+    .indicaciones-test {
+        font-size: 16px;
+    }
+
+    .informacion-importante-test,
+    .escala {
+        padding: 14px;
     }
 
     body > form {

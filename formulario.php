@@ -13,18 +13,26 @@ include("database/conexion.php");
 <body>
     <header>
         <div>
-        <a href="" class="hda">Emociones</a>
-        <a href="" class="hda">Herramientas</a>
-        <a href="" class="hda"></a>
-        <a href=""></a>
+        <a href="index.php" class="hda">Rumbo al 168</a>
+        <a href="aprender.php" class="hda">Aprender</a>
+        <a href="formulario.php" class="hda">Test Emocional</a>
+        <a href="resultados.php" class="hda">Resultados Test Emocional</a>
+        <a href="consejos.php" class="hda">Consejos</a>
         </div>
     </header>
-    <?php 
 
-    $pene = "Hola ";
-    echo $pene;
-    
-    ?>
+    <h1 class="titulo-test">Test Emocional</h1>
+    <p class="indicaciones-test">Por favor, responde las siguientes preguntas:</p>
+    <p class="informacion-importante-test">Información importante: Las respuestas que proporciones serán utilizadas únicamente para fines de investigación y no se compartirán con terceros.</p>
+
+    <div class="escala">
+        <H2>Escala de las Respuestas:</H2>
+        <p>1 = Nunca / Muy bajo</p>
+        <p>2 = Casi nunca / Bajo</p>
+        <p>3 = Algunas veces / Moderado</p>
+        <p>4 = Casi siempre / Alto</p>
+        <p>5 = Siempre / Muy alto</p>
+    </div>
 
 
 <form action="index.php" method="post">
@@ -32,7 +40,7 @@ include("database/conexion.php");
     <br>
     <p>Fecha: <input type="date" name="dato2" required></p>
     <br>
-    <p class="pregunta1">1) Pregunta: del 1 al 5 Como te sientes al sabe que del este</p>
+    <p class="pregunta1">1) ¿Qué tan largo consideras que es tu trayecto desde casa hasta el CBTis 168?</p>
     <div class="respuestas1">
         <input type="radio" name="dato3" value="1" required> 1
         <input type="radio" name="dato3" value="2"> 2
@@ -41,7 +49,7 @@ include("database/conexion.php");
         <input type="radio" name="dato3" value="5"> 5
     </div>
     <br>
-    <p class="pregunta1">2) Pregunta: del 1 al 5 Como te sientes al sabe que del este</p>
+    <p class="pregunta1">2) ¿Qué tan cansado te sientes durante tu camino a la escuela?</p>
     <div class="respuestas1">
         <input type="radio" name="dato4" value="1" required> 1
         <input type="radio" name="dato4" value="2"> 2
@@ -50,7 +58,7 @@ include("database/conexion.php");
         <input type="radio" name="dato4" value="5"> 5
     </div>
     <br>
-    <p class="pregunta1">3) Pregunta: del 1 al 5 Como te sientes al sabe que del este</p>
+    <p class="pregunta1">3) ¿Con qué frecuencia experimentas estrés durante tu trayecto?</p>
     <div class="respuestas1">
         <input type="radio" name="dato5" value="1" required> 1
         <input type="radio" name="dato5" value="2"> 2
@@ -59,7 +67,7 @@ include("database/conexion.php");
         <input type="radio" name="dato5" value="5"> 5
     </div>
     <br>
-    <p class="pregunta1">4) Pregunta: del 1 al 5 Como te sientes al sabe que del este</p>
+    <p class="pregunta1">4) ¿Qué tan tranquilo te sientes al salir de casa rumbo a la escuela?</p>
     <div class="respuestas1">
         <input type="radio" name="dato6" value="1" required> 1
         <input type="radio" name="dato6" value="2"> 2
@@ -68,7 +76,7 @@ include("database/conexion.php");
         <input type="radio" name="dato6" value="5"> 5
     </div>
     <br>
-    <p class="pregunta1">5) Pregunta: del 1 al 5 Como te sientes al sabe que del este</p>
+    <p class="pregunta1">5) ¿Qué tan seguro te sientes durante tu recorrido?</p>
     <div class="respuestas1">
         <input type="radio" name="dato7" value="1" required> 1
         <input type="radio" name="dato7" value="2"> 2
@@ -77,7 +85,7 @@ include("database/conexion.php");
         <input type="radio" name="dato7" value="5"> 5
     </div>
     <br>
-    <p class="pregunta1">6) Pregunta: del 1 al 5 Como te sientes al sabe que del este</p>
+    <p class="pregunta1">6) ¿Con qué frecuencia experimentas frustración debido al tráfico o retrasos?</p>
     <div class="respuestas1">
         <input type="radio" name="dato8" value="1" required> 1
         <input type="radio" name="dato8" value="2"> 2
@@ -86,7 +94,7 @@ include("database/conexion.php");
         <input type="radio" name="dato8" value="5"> 5
     </div>
     <br>
-    <p class="pregunta1">7) Pregunta: del 1 al 5 Como te sientes al sabe que del este</p>
+    <p class="pregunta1">7) ¿Qué tan motivado te sientes durante el camino hacia la escuela?</p>
     <div class="respuestas1">
         <input type="radio" name="dato9" value="1" required> 1
         <input type="radio" name="dato9" value="2"> 2
@@ -95,7 +103,7 @@ include("database/conexion.php");
         <input type="radio" name="dato9" value="5"> 5
     </div>
     <br>
-    <p class="pregunta1">8) Pregunta: del 1 al 5 Como te sientes al sabe que del este</p>
+    <p class="pregunta1">8) ¿Qué tan satisfecho estás con tu medio de transporte y las condiciones de tu recorrido?</p>
     <div class="respuestas1">
         <input type="radio" name="dato10" value="1" required> 1
         <input type="radio" name="dato10" value="2"> 2
@@ -104,7 +112,7 @@ include("database/conexion.php");
         <input type="radio" name="dato10" value="5"> 5
     </div>
     <br>
-    <p class="pregunta1">9) Pregunta: del 1 al 5 Como te sientes al sabe que del este</p>
+    <p class="pregunta1">9) ¿Qué tanto afecta tu trayecto a tu estado de ánimo al llegar a clases?</p>
     <div class="respuestas1">
         <input type="radio" name="dato11" value="1" required> 1
         <input type="radio" name="dato11" value="2"> 2
@@ -113,7 +121,7 @@ include("database/conexion.php");
         <input type="radio" name="dato11" value="5"> 5
     </div>
     <br>
-    <p class="pregunta1">10) Pregunta: del 1 al 5 Como te sientes al sabe que del este</p>
+    <p class="pregunta1">10) ¿Qué tan emocionalmente preparado te sientes para comenzar tus actividades escolares al llegar al CBTis 168?</p>
     <div class="respuestas1">
         <input type="radio" name="dato12" value="1" required> 1
         <input type="radio" name="dato12" value="2"> 2
