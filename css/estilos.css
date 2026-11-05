@@ -14,6 +14,125 @@ body {
     padding: 0 20px 50px;
 }
 
+.pdf{
+    width: 100%;
+    height: 900px;
+}   
+
+.pagina-aprender {
+    display: grid;
+    gap: 35px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.problematica,
+.seccion-propuestas,
+.emociones-vialidad {
+    padding: 32px;
+    background: #ffffff;
+    border: 3px solid #171717;
+    border-radius: 5px;
+    box-shadow: 9px 9px 0 #171717;
+}
+
+.problematica h1,
+.seccion-propuestas h2,
+.emociones-vialidad h2 {
+    margin-bottom: 18px;
+    color: #6842d9;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.problematica > p,
+.emociones-vialidad p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.problematica ul {
+    display: grid;
+    gap: 10px;
+    margin: 18px 0 0;
+    padding-left: 24px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.problematica li::marker {
+    color: #6842d9;
+}
+
+.galeria-problematica,
+.lista-propuestas {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    margin-top: 24px;
+}
+
+.galeria-problematica img,
+.propuesta img {
+    width: 100%;
+    min-height: 180px;
+    object-fit: cover;
+    border: 2px solid #171717;
+    border-radius: 4px;
+}
+
+.galeria-problematica img[src=""],
+.propuesta img[src=""] {
+    display: none;
+}
+
+.propuesta {
+    min-height: 180px;
+    padding: 20px;
+    background: #eee8ff;
+    border: 2px solid #171717;
+    box-shadow: 5px 5px 0 #171717;
+}
+
+.propuesta h3 {
+    margin: 12px 0 8px;
+    color: #6842d9;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 21px;
+}
+
+.propuesta p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.emociones-vialidad {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(180px, 0.6fr);
+    align-items: center;
+    gap: 24px;
+    background: #fff5bd;
+}
+
+.emociones-vialidad h2 {
+    margin: 0;
+}
+
+.emociones-vialidad > div {
+    padding: 20px;
+    background: #ffffff;
+    border: 2px solid #171717;
+}
+
+.emociones-vialidad h3 {
+    margin-bottom: 8px;
+    color: #6842d9;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+}
+
 /* MENU */
 
 header {
@@ -518,6 +637,43 @@ input[type="reset"]:active {
 
     body {
         padding: 0 12px 35px;
+    }
+
+    .pagina-aprender {
+        gap: 24px;
+    }
+
+    .problematica,
+    .seccion-propuestas,
+    .emociones-vialidad {
+        padding: 20px 16px;
+        box-shadow: 5px 5px 0 #171717;
+    }
+
+    .problematica h1,
+    .seccion-propuestas h2,
+    .emociones-vialidad h2 {
+        font-size: 27px;
+    }
+
+    .problematica > p,
+    .emociones-vialidad p {
+        font-size: 16px;
+    }
+
+    .problematica ul {
+        font-size: 15px;
+    }
+
+    .galeria-problematica,
+    .lista-propuestas,
+    .emociones-vialidad {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .propuesta {
+        min-height: 140px;
     }
 
     header {
