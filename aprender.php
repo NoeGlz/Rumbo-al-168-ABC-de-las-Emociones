@@ -9,7 +9,10 @@
 <body>
     <header>
         <div>
-        <a href="index.php" class="hda">Rumbo al 168</a>
+        <a href="index.php" class="hda marca-institucional">
+            <img src="src/logoCbtis168_top.png" alt="" class="cbtis168">
+            <span>Rumbo al 168</span>
+        </a>
         <a href="aprender.php" class="hda">Aprender</a>
         <a href="formulario.php" class="hda">Test Emocional</a>
         <a href="resultados.php" class="hda">Resultados Test Emocional</a>

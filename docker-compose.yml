@@ -1,0 +1,48 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: emociones_app
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_NAME: rumbo_168
+      DB_USER: rumbo_app
+      DB_PASSWORD: emociones_app_2026
+    ports:
+      - "8687:80"
+    networks:
+      - app_internal
+
+  db:
+    image: mariadb:10.11
+    container_name: emociones_db
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: rumbo_168
+      MARIADB_USER: rumbo_app
+      MARIADB_PASSWORD: emociones_app_2026
+      MARIADB_ROOT_PASSWORD: emociones_root_2026
+    volumes:
+      - mariadb_data:/var/lib/mysql
+      - ./database/rumbo_168.sql:/docker-entrypoint-initdb.d/001-rumbo_168.sql:ro
+    networks:
+      - app_internal
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+volumes:
+  mariadb_data:
+
+networks:
+  app_internal:
+    driver: bridge

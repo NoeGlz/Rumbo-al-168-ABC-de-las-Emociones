@@ -9,7 +9,10 @@
 <body>
     <header>
         <div>
-        <a href="index.php" class="hda">Rumbo al 168</a>
+        <a href="index.php" class="hda marca-institucional">
+            <img src="src/logoCbtis168_top.png" alt="" class="cbtis168">
+            <span>Rumbo al 168</span>
+        </a>
         <a href="aprender.php" class="hda">Aprender</a>
         <a href="formulario.php" class="hda">Test Emocional</a>
         <a href="resultados.php" class="hda">Resultados Test Emocional</a>
@@ -44,6 +47,19 @@
         <img src="https://www.saludterapia.com/images/saludterapia/general/3752/emociones-para-que.jpg" alt="testemocional" class="imagen-test">
         <p>Realiza el Test Emocional para conocer tu nivel de control emocional en el tráfico.</p>
         <a href="formulario.php" class="aprender-link">Realizar Test</a>
+    </section>
+
+    <section class="informacion-desarrolladores">
+        <h2>Desarollado por:</h2>
+        <div class="noe">
+            <h3>Noe Sebastian Gonzalez Aguilar</h3>
+        </div>
+        <div class="miguel">
+            <h3>Jose Miguel Palomino Martinez</h3>
+        </div>
+        <div class="hosting">
+            Hosting by solusoft168.online &copy; 2026
+        </div>
     </section>
 </body>
 </html>

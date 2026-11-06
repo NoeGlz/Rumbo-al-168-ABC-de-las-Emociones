@@ -1,10 +1,10 @@
 <?php
 
 
-$server = "localhost";
-$user = "root";
-$password = "";
-$database = "rumbo_168";
+$server = getenv("DB_HOST") ?: "db";
+$user = getenv("DB_USER") ?: "rumbo_app";
+$password = getenv("DB_PASSWORD") ?: "";
+$database = getenv("DB_NAME") ?: "rumbo_168";
 
 $conexion = mysqli_connect($server, $user, $password, $database);
 
