@@ -18,8 +18,8 @@
     </header>
 
     <main class="pagina-aprender">
-        <section class="problematica">
-            <h1>Problemática</h1>
+        <section class="problematica problematica--trafico">
+            <h1>Problemática 1</h1>
             <p>
                 Durante las horas de entrada y salida, se puede generar una concentración excesiva de vehículos
                 alrededor de la preparatoria. Esto provoca:
@@ -32,33 +32,74 @@
                 <li>Estrés, desesperación e impaciencia entre los conductores.</li>
             </ul>
             <div class="galeria-problematica">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="https://images.openai.com/static-rsc-4/HXfhW8j8wyABMh1bBI2fbWfImEm_FxrOngb1p6V61jyOjaUIUHxZYxuvPUNUVSYQk1I1xZ295Nuepm7rxcv3TfYf8QcPtloDj7TLd1MKsJFQt7qkveU_mDhyUuvvALH7DPHmCHLgI-MwnBP8HwRvszIojmpB4lPCVjhxPxZ_pjM-dRcXjDFWoduuGrDB_oO6?purpose=fullsize" alt="">
+                <img src="https://images.openai.com/static-rsc-4/uLFnMMo12QSH_2qmw7R0QznFd5IGxls4nd5d_T9mgMLqEzAUjj4rfWaMbbKLqrZAq9b0UOOJUBX2XpfpvHJM4O1sWvHYJN76Bk1oEME-PnMBYtf2mYascInEgx7oKOlgGSAG4-IZ2cGPlaRIdmWrlHWvtdzag1wgjah5Oy0PTSAfbyIB76_aXZ5tbJW51w3Y?purpose=fullsize" alt="">
+                <img src="https://images.openai.com/static-rsc-4/27L_bhww6-q9CqHpoHmajT2jISfxzFMGtKIfB0iqFXXESJysme9PsxiGOwwj1m88S009w7zS0Uo81GwsmU6cDM3h2dAo6ObM27y_sdZQKJbVCVBcCVq1smhzH880eiMohpxCPfibV2VTl9BLf0UOhq4-EbF4l3nZm4jmTmCnDuZAU2xg6zH7XxKI7pQFgkic?purpose=fullsize" alt="">
             </div>
         </section>
 
-        <section class="seccion-propuestas">
+        <section class="seccion-propuestas seccion-propuestas--trafico">
             <h2>Propuesta</h2>
             <div class="lista-propuestas">
                 <article class="propuesta">
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                    <img src="/src/MapaIndicativo.jpg" alt="">
+                    <h3>Zonas designadas de ascenso y descenso</h3>
+                    <p>Establecer espacios específicos para que los padres puedan dejar y recoger estudiantes sin bloquear los carriles de circulación.</p>
                 </article>
                 <article class="propuesta">
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                    <img src="/src/CBTIS.png" alt="">
+                    <h3>Horarios escalonados de entrada</h3>
+                    <p>Organizar la salida de los grupos en diferentes horarios para evitar que todos los estudiantes salgan simultáneamente.</p>
                 </article>
                 <article class="propuesta">
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                    <img src="https://www.gaceta.unam.mx/wp-content/uploads/2023/01/230123-Com4-des-f1-Transporte-seguro-estudiantes.jpg" alt="">
+                    <h3>Programa de transporte compartido</h3>
+                    <p>Promover que varios estudiantes compartan un vehículo cuando sus rutas sean similares, reduciendo la cantidad de automóviles.</p>
+                </article>
+            </div>
+        </section>
+        <section class="problematica problematica--emociones">
+            <h1>Problemática 2</h1>
+            <p>
+                El tráfico puede provocar emociones negativas como frustración, enojo, ansiedad e impaciencia. 
+                Cuando una persona no sabe controlar estas emociones, puede reaccionar impulsivamente y poner en peligro a los demás. 
+                <br>Algunas manifestaciones son:
+            </p>
+            <ul>
+                <li>Uso excesivo del claxon para expresar molestia.</li>
+                <li>Insultos y discusiones entre conductores.</li>
+                <li>Aceleraciones bruscas y maniobras peligrosas.</li>
+                <li>Intimidación a peatones y otros conductores.</li>
+                <li>Conducción agresiva como consecuencia del estrés.</li>
+            </ul>
+            <div class="galeria-problematica">
+                <img src="https://images.openai.com/static-rsc-4/-4lfpb41rnch0mryGXhXMVqrSxnicNJHcdcdifLzUUA9y4pw4cJ65AiPrWkrAO6Y8XpCGQ12DwYMsFtLNMR0NzuF3ELKpHZ6rH-YQ304Kq_IqcU45pmsYX_ti5T4O8S-eQPpYTOuvQQy2NQ8mq0I1OIK7KZD2cWbzuo7yQ7TgxWXkXCN-Z5be6jzxyUyku6Q?purpose=fullsize" alt="">
+                <img src="https://images.openai.com/static-rsc-4/FDUE1cI6XvOQdOX40JvifWWEQDpuri75U_4LuNgwqBKxMU4XAXdT27Jc4zSiQfD3stFhvnwglofsObLvTM4865faNAbvai_UEG5SrGw1NWtXXjT1KXmOBur5N1XEjOp7oRzhjp4LuoHbiAzk1eTOoQ-MxPFqhjf-flHfKk_SEdbl4DqlnhkkuX7QOuoVhUPS?purpose=fullsize" alt="">
+                <img src="https://images.openai.com/static-rsc-4/wUahyC0TvAbP6R-Na4VN82Gp4t2M5FMiMA0xsUL_v9_R3V096r2SwGamrrUruTpBthrTFvAukjOSLVGVWF4vRooJzbu6aF6RF3ArdnEGTdFzfFjiSYA9wiFpZbc3yavK-6_PwY7wEqq10jvyHTl8LvRlzZnktb36dDjj7B8mp3sUsZQuI4MZEufg8vORN3bh?purpose=fullsize" alt="">
+            </div>
+        </section>
+          <section class="seccion-propuestas seccion-propuestas--emociones">
+            <h2>Propuesta</h2>
+            <div class="lista-propuestas">
+                <article class="propuesta">
+                    <img src="https://impulsapopular.com/wp-content/uploads/2019/01/4303-Componentes-de-la-inteligencia-emocional-importantes-para-la-permanencia-del-talento-humano.jpg" alt="">
+                    <h3>Campaña de inteligencia emocional vial</h3>
+                    <p>enseñar a identificar emociones como enojo, frustración y ansiedad antes de que se conviertan en conductas peligrosas.</p>
+                </article>
+                <article class="propuesta">
+                    <img src="https://psicologiauanl.wordpress.com/wp-content/uploads/2023/09/8753615-edited-2.jpg" alt="">
+                    <h3>Técnicas de regulación emocional</h3>
+                    <p>promover ejercicios de respiración, pausas conscientes y relajación durante situaciones de tráfico intenso.</p>
+                </article>
+                <article class="propuesta">
+                    <img src="https://static.vecteezy.com/system/resources/previews/083/751/142/non_2x/safe-driving-education-responsible-driver-variants-training-concept-vector.jpg" alt="">
+                    <h3>Compromiso de conducción responsable</h3>
+                    <p>permitir que los usuarios adopten compromisos para evitar insultos, maniobras agresivas y comportamientos impulsivos.</p>
                 </article>
             </div>
         </section>
 
+        
         <section class="emociones-vialidad">
             <h2>Conoce cómo influye el tráfico de tu camino a la escuela en tus emociones</h2>
             <div>
@@ -77,6 +118,7 @@
                     La seguridad pública y vialidad están estrechamente relacionadas, ya que el cumplimiento de las normas de vialidad reduce los riesgos de accidentes y protege tanto a conductores como a peatones.
                 </p>
             </div>
+
             <div class="reglas-normas">
                 <h2>Reglas y Normas de Vialidad y Tránsito</h2>
                 <h3>Reglamentos de Vialidad y Tránsito</h3>
